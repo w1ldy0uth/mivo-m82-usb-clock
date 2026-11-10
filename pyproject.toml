@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mivo-m82-usb-clock"
+version = "1.0.0"
+description = "USB HID clock synchronization for a patched MIVO M82 speaker"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+mivo-m82 = "mivo_m82.__main__:main"
+
+[tool.setuptools]
+packages = ["mivo_m82"]

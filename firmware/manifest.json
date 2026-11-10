@@ -1,0 +1,119 @@
+{
+  "format": "mivo-m82-sector-bundle-v1",
+  "version": "1.0.0",
+  "model": "MIVO M82",
+  "platform": "JieLi BR25 / AC696x",
+  "flash_size": 524288,
+  "flash_id": 13463571,
+  "chip_key": 1914,
+  "source_static_sha256": "6af280ab6b6c8eba84e6c9076f2e63cd02780707940f2ac60f681fda979e5eee",
+  "patched_static_sha256": "05e0c6fec4123d852e75038a0b77df058b925b18672bf29be3cc676220cf280c",
+  "bundle_file": "mivo-m82-usb-clock-v1.0.0.sectors.bin",
+  "bundle_sha256": "be863e4521367676dcd9c352c47736be593b0de3d02920e67b00e4d4a99f4e91",
+  "ram_loader_sha256": "0bc69023d6bf4c4d5d5bc048e06249ee39c484acd11196ffc73f88940787d77d",
+  "preserved_ranges": [
+    [
+      0,
+      8192
+    ],
+    [
+      421888,
+      524288
+    ]
+  ],
+  "sectors": [
+    {
+      "offset": 8192,
+      "size": 4096,
+      "data_offset": 0,
+      "original_sha256": "07e2447f0035c5aac036884ba9581b6d617850b0616f3cc9fdbaec3fd9494789",
+      "patched_sha256": "e0c16b9580e46e034f894f5aca6294b4e1aedd92f6de83d393c10972497649ce"
+    },
+    {
+      "offset": 212992,
+      "size": 4096,
+      "data_offset": 4096,
+      "original_sha256": "462f1a34ddd6b86b3cef96df95d224e09b75a54013bf5c273f5452f396265d08",
+      "patched_sha256": "c7e48f632d7c10a8571fce19ec118ac004007cfa3983e42d13753375e2dcbfa6"
+    },
+    {
+      "offset": 376832,
+      "size": 4096,
+      "data_offset": 8192,
+      "original_sha256": "0639ede3350708a4ef9c56fd7db747f99dbca24b8c298f76665f43639613379e",
+      "patched_sha256": "1f9af07e491178f5a4ae6425ca0985784d89728c5a6bdd70005bb4d7cd705977"
+    },
+    {
+      "offset": 380928,
+      "size": 4096,
+      "data_offset": 12288,
+      "original_sha256": "abf8cd817abfb217ac8caf5dc4f7fe2494313ccafc70132c5c6a3187304eb226",
+      "patched_sha256": "38a95e3ec5ac59a7e9b6426bfd5f7c62ae5bfdafd3bee46aca6b5aa517ddd491"
+    },
+    {
+      "offset": 385024,
+      "size": 4096,
+      "data_offset": 16384,
+      "original_sha256": "511cf6fff2a2511892c7598da86137151c5a2cebe386c2f06b245e7fe5333b96",
+      "patched_sha256": "3cd8a31e779520a4bde364f8e32bc41e53d09018805dcb281dd457fb6ae77fc5"
+    },
+    {
+      "offset": 389120,
+      "size": 4096,
+      "data_offset": 20480,
+      "original_sha256": "be93a1848c3fab343812f2ed839ebf7ad3cb185447a4e3056829c1c2cd996147",
+      "patched_sha256": "080ac12dcb7e340e1a294456d5e6496a4c376dc9794feb56d76f1cf6e716f388"
+    },
+    {
+      "offset": 393216,
+      "size": 4096,
+      "data_offset": 24576,
+      "original_sha256": "9fa0e0459748e72c860649a8ef142603bdc5be3b8314f425b22e56962f3e69f5",
+      "patched_sha256": "d77e78224ee20fae83f01e329e29a37d39da12b714210f2ece14de4a16aeab7e"
+    },
+    {
+      "offset": 397312,
+      "size": 4096,
+      "data_offset": 28672,
+      "original_sha256": "9b8b90eb009de9c0c064cf7b2702fbb15a85cb636504fa78439d6f52c7d24c80",
+      "patched_sha256": "a7d62c1050d1a738b32b86e4d8288d1ff0c02d8a658576377c47d0049f213c16"
+    },
+    {
+      "offset": 401408,
+      "size": 4096,
+      "data_offset": 32768,
+      "original_sha256": "f9633feaa8d31819032088e7f6094a9b3a00213ac417e438c2573878bcba1572",
+      "patched_sha256": "7cc6b6ca247b8be27d6afeefa36d8ab4420f092357bf497123bd742bf2ad1359"
+    },
+    {
+      "offset": 405504,
+      "size": 4096,
+      "data_offset": 36864,
+      "original_sha256": "5bb974948da8776a81a155608ed3c307fed9526811e2303b80899fb0c1fb9667",
+      "patched_sha256": "8516a55b12e1a5fe777387eb1cfbfb304dc84a3129b5c1847d517df0c912fa9b"
+    },
+    {
+      "offset": 409600,
+      "size": 4096,
+      "data_offset": 40960,
+      "original_sha256": "a0b35d3ea22d4e2f00f69ebe6b015c268bfd33970d4c5dfe116beceee7c27a54",
+      "patched_sha256": "ff059a0f187935f7c0f805c0272abfd2c03c7d157cde34d8fe34e9178350a4de"
+    },
+    {
+      "offset": 413696,
+      "size": 4096,
+      "data_offset": 45056,
+      "original_sha256": "3f7f4da47c2456b43eff202e2b1bb3da70f8aed1c1783d646300f9151e0dabda",
+      "patched_sha256": "234392b877090c2cf8d77776cac43850829b67e27d59b0e4e272b85cdd7c4f68"
+    },
+    {
+      "offset": 417792,
+      "size": 4096,
+      "data_offset": 49152,
+      "original_sha256": "962a01aab1fc473db2d19aba05a0b02b0425b625544e19c14a1b88bdd28998da",
+      "patched_sha256": "d4f531ac64ab7d86b7974334542e54af9039abf2586f255ae24784787848f4ca"
+    }
+  ],
+  "compatibility": "Only the exact original static-region hash and SFC key above are supported. No force mode.",
+  "hardware_validation": "USB SET/GET, clock display and audio confirmed on one unit on 2026-11-09."
+}

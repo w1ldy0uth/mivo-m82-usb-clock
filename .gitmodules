@@ -1,0 +1,9 @@
+[submodule "vendor/jl-uboot-tool"]
+	path = vendor/jl-uboot-tool
+	url = https://github.com/kagaimiq/jl-uboot-tool.git
+[submodule "vendor/jl-misctools"]
+	path = vendor/jl-misctools
+	url = https://github.com/kagaimiq/jl-misctools.git
+[submodule "vendor/pi32v2-isa"]
+	path = vendor/pi32v2-isa
+	url = https://github.com/jvitkauskas/pi32v2-isa.git

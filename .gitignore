@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+backups/
+logs/
+*.log
+*.bin
+*.egg-info/
+dist/
+.coverage
+original*.bin
+*dump*.bin
+*backup*.bin
+*before-*.bin
+!firmware/*.sectors.bin
